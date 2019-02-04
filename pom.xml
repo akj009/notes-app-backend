@@ -98,7 +98,9 @@
                 <artifactId>appengine-maven-plugin</artifactId>
                 <configuration>
                     <deploy.projectId>demos-228605</deploy.projectId>
-                    <deploy.version>01</deploy.version>
+                    <deploy.version>02</deploy.version>
+                    <detail>true
+                    </detail>
                 </configuration>
             </plugin>
             <plugin>

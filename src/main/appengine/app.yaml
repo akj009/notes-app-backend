@@ -1,3 +1,4 @@
+service: default
 runtime: java
 env: flex
 runtime_config:

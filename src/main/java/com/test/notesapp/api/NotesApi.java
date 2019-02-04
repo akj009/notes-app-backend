@@ -24,6 +24,11 @@ public class NotesApi {
         return noteService.getAllNotes();
     }
 
+    @GetMapping("/{noteTitle}")
+    public Note getNote(@PathVariable String noteTitle) {
+        return noteService.getNote(noteTitle);
+    }
+
     @PostMapping("/add")
     public String addNote(@RequestBody Note note) {
         System.out.println(note);

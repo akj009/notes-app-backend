@@ -68,4 +68,8 @@ public class NoteService {
 
         return true;
     }
+
+    public Note getNote(String noteTitle) {
+        return apply(noteDao.findByTitle(noteTitle));
+    }
 }
